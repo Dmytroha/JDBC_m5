@@ -4,9 +4,9 @@ import java.time.LocalDate;
 
 public class YoungestEldestWorkers {
 
-    private  String type;
-    private  String name;
-    private  LocalDate birthday;
+    private final String type;
+    private final String name;
+    private final LocalDate birthday;
 
     public YoungestEldestWorkers(String type, String name, LocalDate birthday) {
         this.type = type;
@@ -16,9 +16,11 @@ public class YoungestEldestWorkers {
 
     @Override
     public String toString() {
-        return "type: " + type +
-                ", name: " + name +
-                ", birthday: " + birthday;
+        return "YoungestEldestWorkers{" +
+                "type='" + type + '\'' +
+                ", name='" + name + '\'' +
+                ", birthday=" + birthday +
+                '}';
     }
 
 

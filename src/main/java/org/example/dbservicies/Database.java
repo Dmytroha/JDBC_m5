@@ -21,7 +21,7 @@ public class Database {
     private static final String DB_URL = "jdbc:h2:D:\\JavaDeveloperPart2\\H2-DB";
     private static final String DB_USER = "sa";
     private static final String DB_PASSWORD = "tr9g!*Hps";
-    public static final String DEFAULT_SCHEME = "DEV_MODULE_5";
+    public static final String DEFAULT_SCHEMA = "DEV_MODULE_5";
 
     private static Database databaseInstance = new Database();
     private Connection connection;

@@ -1,8 +1,8 @@
 package org.example.entities;
 
 public class MaxSalaryWorker {
-    String name;
-    Long salary;
+    private final String name;
+    private final Long salary;
     public MaxSalaryWorker(String name, Long salary) {
         this.name = name;
         this.salary = salary;

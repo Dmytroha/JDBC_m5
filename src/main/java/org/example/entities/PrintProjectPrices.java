@@ -2,8 +2,8 @@ package org.example.entities;
 
 public class PrintProjectPrices {
 
-    String name;
-    Long price;
+    private final String name;
+    private final Long price;
 
     public PrintProjectPrices(String name, Long price) {
         this.name = name;

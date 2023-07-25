@@ -7,9 +7,9 @@ public class LongestProject {
         this.monthCount = monthCount;
     }
 
-    private long id;
-    private String name;
-    private int monthCount;
+    private final long id;
+    private final String name;
+    private final int monthCount;
 
     @Override
     public String toString() {
